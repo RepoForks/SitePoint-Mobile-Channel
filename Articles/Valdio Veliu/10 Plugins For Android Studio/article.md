@@ -12,19 +12,15 @@ H.A.X.M is the best way for developers who use the Android Emulator to execute t
 I think that H.A.X.M is the most useful plugin that an Android developer must have to run the latest Android version on the emulator as fast as it can get.
 
 
+To install H.A.X.M follow this steps: 
 
+ Open the Android SDK Manager select the “Intel x86 Emulator Accelerator (HAXM installer)” accept the license and  install the package. 
+ 
+![](https://github.com/valdio/SitePoint-Mobile-Channel/blob/master/Articles/Valdio%20Veliu/10%20Plugins%20For%20Android%20Studio/images/haxm.PNG)
+ 
+ This process has downloaded the package but has not actually installed H.A.X.M. To finish the installation go to the SDK path shown in the image above “C:\Users\Administrator\AppData\Local\Android\sdk\” (This installation is done on a Windows machine) and try to find the download folder. Mine was on “C:\Users\Administrator\AppData\Local\Android\sdk\extras\intel”  open the installation  folder “Hardware_Accelerated_Execution_Manager” and click the executable intelhaxm-android and continue the installation. After this installation you are all set to use the emulator. 
 
-
-
-
-
-
-
-
-
-
-
-
+![](https://github.com/valdio/SitePoint-Mobile-Channel/blob/master/Articles/Valdio%20Veliu/10%20Plugins%20For%20Android%20Studio/images/haxmexe.PNG)
 
 
 
@@ -39,7 +35,7 @@ Genymotion is the ultimate tool for testing your Android application and enables
 Every developer who wants to make sure his/her application runs smoothly in every supported device and has trouble troubleshooting specific device errors should make use of this great plugin.
 
 
-
+To install Genymotion go to the official Genymotion page  www.genymotion.com create an account and then you should be able to download and install you Genymotion based on the Operating System you are working on. 
 
 
 
@@ -55,6 +51,9 @@ Every developer who wants to make sure his/her application runs smoothly in ever
 To adapt to all the Android screen sizes and densities each Android project contains the drawable section. Any developer with a bit of experience on Android development  should know that to support all the screen sizes you must import different types of drawables for each of the screen types. 
 Android Drawable Importer makes this job easier. It reduces your efforts to import scaled images into the Android project. Android Drawable Importer adds an option on IntelliJ to import drawables in different resolution or scale a specified image to a defined resolution. 
 This plugin is the most useful tool that that every developer must try to speed up his work with the application drawables.
+
+Install Drawable Importer:
+![](https://github.com/valdio/SitePoint-Mobile-Channel/blob/master/Articles/Valdio%20Veliu/10%20Plugins%20For%20Android%20Studio/images/Drawable%20Importer.gif)
 
 
 ##4. Android ButterKnife Zelezny
@@ -77,10 +76,17 @@ After using  Android ButterKnife:
 ![](https://github.com/valdio/SitePoint-Mobile-Channel/blob/master/Articles/Valdio%20Veliu/10%20Plugins%20For%20Android%20Studio/images/bk2.PNG)
 
 
+Install ButterKnife Zelezny:
+![](https://github.com/valdio/SitePoint-Mobile-Channel/blob/master/Articles/Valdio%20Veliu/10%20Plugins%20For%20Android%20Studio/images/ButterKnife%20Zelezny.gif)
+
 ##5.Android Holo Colors Generator
 
 To develop cool Android applications you should have a nice design of the application layout. Android Holo Colors Generator is the best and easiest way to customize your Android application catered to your own preferences. 
 Android Holo Colors Generator is a  IntelliJ/Android Studio Plugin that allows you to easily create Android layout components with your own colours for your application. This plugin will generate all the necessary assets associated with XML drawables and styles to use in your project.
+
+Install Holo Colors Generator:
+![](https://github.com/valdio/SitePoint-Mobile-Channel/blob/master/Articles/Valdio%20Veliu/10%20Plugins%20For%20Android%20Studio/images/Holo%20Colors%20Generator.gif)
+
 
 ##6. Robotium Recorder
 Robotium Recorder is a test automation framework for testing native and hybrid mobile application on emulators and Android devices. With Robotium Recorder it is possible to record test cases and user actions. You can view functions of system and user test scenarios on different Android activities.  
@@ -92,6 +98,7 @@ For everyone who is looking to develop stable Android applications this plugin m
 ![](https://github.com/valdio/SitePoint-Mobile-Channel/blob/master/Articles/Valdio%20Veliu/10%20Plugins%20For%20Android%20Studio/images/Robotium.jpg)
 
 
+To install Robotium Recorder go to the official page robotium.com, in the Installation section and choose your version of Robotium Recorder based on your Operating System. 
 
 
 ##7. jimu Mirror
@@ -101,9 +108,16 @@ Is not possible on a static preview to preview animation, colours and touch zone
 jimu Mirror gives you on-device previews of Android layouts that update as you code.
 This plugin offers you a realistic context before writing the java code to link the application together. 
 
+Install jimu Mirror:
+![](https://github.com/valdio/SitePoint-Mobile-Channel/blob/master/Articles/Valdio%20Veliu/10%20Plugins%20For%20Android%20Studio/images/jimu%20Mirror.gif)
+
 ##8. strings-xml-tools
 
 Strings-xml-tools is a small but very useful plugin that can be used to manage the string resources in Android projects. It provides basic operations of sorting entries in Android localization files and adding missing strings. There are limited things that you can with this plugin but if your application has a large number of of string resources this plugin might be helpful. 
+
+Install Android Strings.xml tools:
+
+![](https://github.com/valdio/SitePoint-Mobile-Channel/blob/master/Articles/Valdio%20Veliu/10%20Plugins%20For%20Android%20Studio/images/Android%20Strings.xml%20tools.gif)
 
 
 
