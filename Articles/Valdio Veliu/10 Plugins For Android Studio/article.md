@@ -47,6 +47,7 @@ Every developer who wants to make sure his/her application runs smoothly in ever
 ##3. Android Drawable Importer
 
 ![](https://github.com/valdio/SitePoint-Mobile-Channel/blob/master/Articles/Valdio%20Veliu/10%20Plugins%20For%20Android%20Studio/images/drawable1.PNG)
+
 ![](https://github.com/valdio/SitePoint-Mobile-Channel/blob/master/Articles/Valdio%20Veliu/10%20Plugins%20For%20Android%20Studio/images/drawable2.PNG)
 
 
